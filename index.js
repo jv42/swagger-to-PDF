@@ -316,16 +316,16 @@ function convertToHTML(swaggerJSON){
             switch(action)
             {
                 case "get":
-                    html+='<pre class="get"><code class="huge"><span>'+main3Counter +'.' + sub3Counter +' get</span>&nbsp;&nbsp;'+path+'</code></pre>';
+                    html+='<pre class="get"><code class="huge"><span>'+main3Counter +'.' + sub3Counter +' GET</span>&nbsp;&nbsp;'+path+'</code></pre>';
                     break; 
                 case "post":
-                    html+='<pre class="post"><code class="huge"><span>'+main3Counter +'.' + sub3Counter +' post</span>&nbsp;&nbsp;'+path+'</code></pre>';
+                    html+='<pre class="post"><code class="huge"><span>'+main3Counter +'.' + sub3Counter +' POST</span>&nbsp;&nbsp;'+path+'</code></pre>';
                     break;
                 case "put":
-                    html+='<pre class="put"><code class="huge"><span>'+main3Counter +'.' + sub3Counter +' put</span>&nbsp;&nbsp;'+path+'</code></pre>';
+                    html+='<pre class="put"><code class="huge"><span>'+main3Counter +'.' + sub3Counter +' PUT</span>&nbsp;&nbsp;'+path+'</code></pre>';
                     break;
                 case "delete":
-                    html+='<pre class="delete"><code class="huge"><span>'+main3Counter +'.' + sub3Counter +' delete</span>&nbsp;&nbsp;'+path+'</code></pre>';
+                    html+='<pre class="delete"><code class="huge"><span>'+main3Counter +'.' + sub3Counter +' DELETE</span>&nbsp;&nbsp;'+path+'</code></pre>';
                     break;
             }
 
@@ -708,16 +708,16 @@ function pathsTableContents(swaggerJSON, mainCounter)
             switch(action)
             {
                 case "get":
-                    html+='<span><b>' +mainCounter +'.' + sub3Counter +'.</b> ' +'get</span>&nbsp;&nbsp;'+path+'';
+                    html+='<span><b>' +mainCounter +'.' + sub3Counter +'.</b> ' +'GET</span>&nbsp;&nbsp;'+path+'';
                     break; 
                 case "post":
-                    html+='<span><b>' +mainCounter +'.' + sub3Counter +'.</b> ' +'post</span>&nbsp;&nbsp;'+path+'';
+                    html+='<span><b>' +mainCounter +'.' + sub3Counter +'.</b> ' +'POST</span>&nbsp;&nbsp;'+path+'';
                     break;
                 case "put":
-                    html+='<span><b>' +mainCounter +'.' + sub3Counter +'.</b> ' +'put</span>&nbsp;&nbsp;'+path+'';
+                    html+='<span><b>' +mainCounter +'.' + sub3Counter +'.</b> ' +'PUT</span>&nbsp;&nbsp;'+path+'';
                     break;
                 case "delete":
-                    html+='<span><b>' +mainCounter +'.' + sub3Counter +'.</b> ' +'delete</span>&nbsp;&nbsp;'+path+'';
+                    html+='<span><b>' +mainCounter +'.' + sub3Counter +'.</b> ' +'DELETE</span>&nbsp;&nbsp;'+path+'';
                     break;
             }
             html += "<br><br>";
